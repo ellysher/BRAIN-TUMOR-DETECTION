@@ -9,7 +9,7 @@ app.config['UPLOAD_FOLDER'] = 'static/uploads/'
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg'}
 
 # Load the trained model
-model = tf.keras.models.load_model("Model2 Final Brain Tumor.keras")
+model = tf.keras.models.load_model("Model2_Final_Brain_Tumor.keras")
 
 # Define class labels
 class_labels = ['glioma', 'meningioma', 'notumor', 'pituitary']
